@@ -15,9 +15,9 @@ import java.util.zip.ZipOutputStream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ArchiveTasklet  {
+public class Archiver  {
 
-	private final static Logger log = LoggerFactory.getLogger(ArchiveTasklet.class);
+	private final static Logger log = LoggerFactory.getLogger(Archiver.class);
 
 	// Current Time for archive filename
 	private String currentDateTime = new SimpleDateFormat("__yyyyMMdd-HHmmss").format(new Date());
